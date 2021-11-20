@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+.header-top {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+nav {
+width: 600px;
+}
+  
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+nav a {
+text-decoration: none;
+color: black;
+}
+  
+.blackHeart {
+width: 20px;
+margin-right: 1rem;
+}
+  
+  
+.header-bottom{
+    padding:0.5rem 2rem 0.5rem 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo-header-bottom{
+    flex-grow: 0;
+}
+
+.search-bar{
+    position: relative ;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-grow: 1;
+    background: #f2f2f2;
+    height: 70px;
+
+}
+
+.nmpLogo{
+    height: 25px;
+    width: 70px;
+    overflow: hidden;
+    margin-top: auto;
+}
+
+#site-search{
+    background: none;
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+    font-size: 16px;
+    letter-spacing: 0px;
+    border: none;
+    outline: unset;
+    height: 40px;
+    border-radius: 0;
+    width: calc(100% - 105px);
+    -webkit-appearance: none;
+}
+
+.form-search{
+    width: 100%;
+    align-items: center;
+}
+
+.search-bar button{
+    font-family: 'Poppins';
+    letter-spacing: 0.3px;
+    font-weight: bold;
+    background-color: #fb3e44;
+    color: #fff;
+    border-style: none;
+    overflow: visible;
+    height: 70px;
+    width: 100px;
+}
+
+#magnifyingGlass{
+    margin-left: .5rem;
+    height: 50%;
+}
+
+.connect{
+    flex-grow: 0;
+    
+}
+
+.connect a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#join{
+    margin-right: 10px;
+    padding: 13px 28px;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+}
+
+.presentation{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(232,217,217,.3);
+    box-shadow: 0px 0px 10px 0px rgb(233 223 223 / 75%);
+
+}
+
+.presentation h1{
+    font-family: Poppins,sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    /* line-height: 1.25; */
+}
+
+.presentationText{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 32rem;
+    text-align: center;
+}
+
+.plans{
+    height: 100px;
+    padding: 10px;
+    margin-top: 4rem;
+}
+
+.plans, a{
+    text-align: center;
+    height: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.seePlans{
+    margin-right: 5rem;
+    padding: 1rem 3rem;
+    color: #ffff !important;
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2)
+}
+
+.triangle{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.triangleSVG{
+    margin: auto;
+    height: 250px;
+}
+
+.triangle :nth-child(2){
+    background-color: rgba(255,204,53,.4);
+    margin-top:3rem !important;
+    margin: auto;
+    font-size: x-large;
+    font-weight: bold !important;
+    transform: skew(9deg,0deg);
+    padding: 0 1rem 0 1rem;
+}
+
+.triangle :nth-child(3){
+    margin-top:1rem !important;
+    max-width: 32rem;
+    margin: auto;
+    text-align: center;
+}
+
+.footerInfo{
+    display: flex;
+    justify-content: space-between;
+    margin:7rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 30px;
+}
+
+.info img{
+    height: 25px;
+    margin-right: 86%;
+}
+
+.info :nth-child(2){
+    margin-top: 15px;
+    color: #ED1C24;
+    font-weight: bold;
+}
+
+.info :nth-child(3){
+    margin-top: 20px;
+}
+
+.create{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.createLink{
+    height: 40px;
+    text-decoration: none;
+    background-color: #000000;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    padding: 1rem 6rem .3em 6rem; 
+}
